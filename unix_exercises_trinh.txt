@@ -1,0 +1,16 @@
+2a. AuDuyen@jupyter-auduyen:~/Astro192$
+4a. 6 files
+4b. StarCharts.pdf at 514kB
+4c. AuDuyen@jupyter-auduyen:~/Astro192/StarData$ ls -lh
+5a. AuDuyen@jupyter-auduyen:~/Astro192/StarData$ cp StarHeader.txt junk.dat
+6a. AuDuyen@jupyter-auduyen:~/Astro192/StarData$ mv junk.dat junque.dat
+7a. AuDuyen@jupyter-auduyen:~/Astro192/StarData$ rm junque.dat
+8a. AuDuyen@jupyter-auduyen:~/Astro192/StarData$ cat StarHeader.txt
+8b. Num, RA, DE, Vmag, B-V, Parallax, uRA, uDec
+9a. AuDuyen@jupyter-auduyen:~/Astro192/StarData$ touch small.dat
+    AuDuyen@jupyter-auduyen:~/Astro192/StarData$ echo AuDuyen > small.dat
+10a. AuDuyen@jupyter-auduyen:~/Astro192/StarData$ head -100 BrightStars.dat | cat -n > small.dat
+11a. AuDuyen@jupyter-auduyen:~/Astro192/StarData$ tail -10 BrightStars.dat | cat -n >> small.dat
+12a. 5016 lines in BrightStars.dat and 110 lines in small.dat 
+12b. AuDuyen@jupyter-auduyen:~/Astro192/StarData$ wc BrightStars.dat
+     AuDuyen@jupyter-auduyen:~/Astro192/StarData$ wc small.dat

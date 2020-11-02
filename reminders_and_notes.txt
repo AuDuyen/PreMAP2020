@@ -1,0 +1,9 @@
+cd PreMAP2020
+git add *
+git commit -m "#phrase"
+git push
+git pull upstream master
+
+if error:
+git merge --abort
+git pull upstream master 
